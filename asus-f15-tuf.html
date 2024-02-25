@@ -1,0 +1,207 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
+        <title>Interactive &mdash; Experience</title>
+        <style>
+            model-viewer {
+                width: 100%;
+                height: 300px;
+                margin: 0 auto;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <i class='bx bxs-car nav__logo-icon'></i> InterActiQ
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#featured" class="nav__link">Featured</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#MODEL-3D" class="nav__link">Model</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">Products</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x' ></i>
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+                    <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+                    <div class="nav__shop" id="cart-shop">
+                        <i class='bx bx-shopping-bag' ></i>
+                    </div>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class='bx bx-grid-alt' ></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="main">
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <div class="home__img-bg">
+                        <img src="assets/img/images-removebg-preview.png" alt="" class="home__img">
+                    </div>
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                            Facebook
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                            Twitter
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                            Instagram
+                        </a>
+                    </div>
+    
+                    <div class="home__data">
+                        <h1 class="home__title">ELECTRONIC <br> ASUS TUF Gaming Laptop </h1>
+                        <p class="home__description">
+                            Intel Core i5 12th Gen i5-12500H - (16 GB/512 GB SSD/Windows 11)
+                        </p>
+                        <span class="home__price">₹84,800</span>
+
+                        <div class="home__btns">
+                            <a href="#" class="button button--gray button--small">
+                                Discover
+                            </a>
+                            <button class="button home__button">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="featured section container" id="featured">
+                <h2 class="section__title">
+                    Featured
+                </h2>
+
+                <div class="featured__container grid">
+                    <article class="featured__card">
+                        <span class="featured__tag">Sale</span>
+
+                        <img src="assets/img/alienware-removebg-preview.png" alt="" class="featured__img">
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">Dell Alienware Laptop</h3>
+                            <span class="featured__price">₹244,990</span>
+                        </div>
+                        <a href="dell-laptop.html">
+                        <button class="button featured__button">LEARN MORE</button>
+                        </a>
+                    </article>
+                    <article class="featured__card">
+                        <span class="featured__tag">Sale</span>
+                        <img src="assets/img/drone1-removebg-preview.png" alt="" class="featured__img">
+                        <div class="featured__data">
+                            <h3 class="featured__title">Drone</h3>
+                            <span class="featured__price">₹50,000</span>
+                        </div>
+                        <a href="drone.html">
+                        <button class="button featured__button">LEARN MORE</button>
+                        </a>
+                    </article>
+                    <article class="featured__card">
+                        <span class="featured__tag">Sale</span>
+                        <img src="assets/img/batman-removebg-preview.png" alt="" class="featured__img">
+                        <div class="featured__data">
+                            <h3 class="featured__title">LEGO Batman</h3>
+                            <span class="featured__price">₹599</span>
+                        </div>
+                        <a href="lego-batman.html">
+                        <button class="button featured__button">LEARN MORE</button>
+                        </a>
+                    </article>
+                </div>
+            </section>
+            <section class="story section container" id="MODEL-3D">
+                <div class="story__container grid">
+                    <div class="story__data">
+                        <h2 class="section__title story__section-title">
+                            Learn More
+                        </h2>
+                        <img src="assets/img/asus-img.png" alt="QR_CODE" srcset="">
+                        <br>
+                        <br>
+                        <a href="#" class="button button--small">Discover</a>
+                    </div>
+                    <div class="story__images">
+                        <img src="assets/img/images-removebg-preview.png" alt="" class="story__img">
+                        <div class="story__square"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="products section container" id="products">
+                <h2 class="section__title">
+                    Products
+                </h2>
+                <div class="products__container grid">
+                    <article class="products__card">
+                        <img src="assets/img/radio-removebg-preview.png" alt="" class="products__img">
+                        <h3 class="products__title">Radio</h3>
+                        <span class="products__price">₹15,000</span>
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+                    <article class="products__card">
+                        <img src="assets/img/mario-removebg-preview.png" alt="" class="products__img">
+                        <h3 class="products__title">Lego Mario</h3>
+                        <span class="products__price">₹1,200</span>
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+                    <article class="products__card">
+                        <img src="assets/img/lego-technic-car-removebg-preview.png" alt="" class="products__img">
+                        <h3 class="products__title">Lego Technica Car</h3>
+                        <span class="products__price">₹2,900</span>
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+                    <article class="products__card">
+                        <img src="assets/img/tv-removebg-preview.png" alt="" class="products__img">
+                        <h3 class="products__title">Television</h3>
+                        <span class="products__price">₹50,000</span>
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+                    <article class="products__card">
+                        <img src="assets/img/kawasaki-ninja-removebg-preview.png" alt="" class="products__img">
+                        <h3 class="products__title">Kawasaki Ninja</h3>
+                        <span class="products__price">₹110,000</span>
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+                </div>
+            </section>
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class='bx bx-up-arrow-alt scrollup__icon' ></i>
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
